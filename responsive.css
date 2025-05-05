@@ -1,0 +1,78 @@
+/* responsive.css */
+
+/* Mobile devices (up to 480px) */
+@media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .container {
+      height: auto;
+      padding: 1rem;
+    }
+  
+    .game {
+      height: 90vmin;
+      width: 90vmin;
+      gap: 2vmin;
+    }
+  
+    .box {
+      height: 25vmin;
+      width: 25vmin;
+      font-size: 10vmin;
+    }
+  
+    #reset-btn, #new-btn {
+      font-size: 1rem;
+      padding: 0.75rem;
+    }
+  
+    #msg {
+      font-size: 6vmin;
+    }
+  
+    .msg-container {
+      gap: 2rem;
+      height: auto;
+      padding: 2rem;
+    }
+  }
+  
+  /* Tablets (481px to 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    .game {
+      height: 70vmin;
+      width: 70vmin;
+      gap: 1.5vmin;
+    }
+  
+    .box {
+      height: 20vmin;
+      width: 20vmin;
+      font-size: 8vmin;
+    }
+  
+    #msg {
+      font-size: 6vmin;
+    }
+  }
+  
+  /* Large Screens (769px and up) */
+  @media (min-width: 769px) {
+    .game {
+      height: 60vmin;
+      width: 60vmin;
+    }
+  
+    .box {
+      height: 18vmin;
+      width: 18vmin;
+      font-size: 8vmin;
+    }
+  }
+  
